@@ -13,6 +13,7 @@ class Product{
         required this.title,
         required this.price,
         required this.imageUrl,
+        this.isFavorite = false,
       });
 
   void toogleFavotite(){
